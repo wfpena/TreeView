@@ -5,4 +5,9 @@ Essa descrição é diferente para nós principais e sub-nós (Subtítulos), mas
 
 A descrição pode ser modificada pelo 'textarea', simplemente reescrever e clicar em "Salvar".
 
-Além disso, o nome do nó também pode ser modificado, com clique duplo no nó.
+Além disso, o nome do nó também pode ser modificado com clique duplo.
+
+Na base de dados é criada apenas uma tabela na Database "TreeView". Esta tabela tem uma chave estrangeira para ela mesma
+apontando para o nó "pai" se ele existir.
+
+A aplicação foi feita usando o template do ASP.NET Boilerplate. https://aspnetboilerplate.com/
