@@ -1,5 +1,7 @@
 Sistema de Tree View
 
+Para criar a Database use o comando update-database no Package Manager Console. Com a Entity Framework selecionada.
+
 Cada novo nó recebe o nome de "Título X", onde X é o número de nós atuais. Cada nó novo recebe uma descrição default.
 Essa descrição é diferente para nós principais e sub-nós (Subtítulos), mas segue a mesma lógica.
 
